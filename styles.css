@@ -1,16 +1,15 @@
-/* Estilos Generales */
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    background-color: #E3F2FD; /* Azul Claro */
+    background-color: #E3F2FD; 
 }
 
 header, footer {
-    background-color: #0D47A1; /* Azul Muy Oscuro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #0D47A1; 
+    color: #ffffff; 
     text-align: center;
     padding: 1rem;
 }
@@ -28,18 +27,18 @@ main {
     justify-content: center;
     padding: 1rem;
     border-radius: 8px;
-    background-color: #FFFFFF; /* Fondo blanco */
+    background-color: #FFFFFF; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .input-section {
     width: 50%;
-    border-right: 2px solid #90CAF9; /* Azul Medio */
+    border-right: 2px solid #90CAF9;
 }
 
 .output-section {
     width: 50%;
-    border-left: 2px solid #90CAF9; /* Azul Medio */
+    border-left: 2px solid #90CAF9; 
 }
 
 textarea {
@@ -47,10 +46,10 @@ textarea {
     height: 100%;
     max-height: 300px;
     padding: 0.75rem;
-    border: 1px solid #90CAF9; /* Azul Medio */
+    border: 1px solid #90CAF9; 
     border-radius: 8px;
     box-sizing: border-box;
-    background-color: #F5F5F5; /* Gris Claro */
+    background-color: #F5F5F5; 
     font-size: 1rem;
 }
 
@@ -65,8 +64,8 @@ button {
     padding: 0.75rem;
     border: none;
     border-radius: 8px;
-    background-color: #1E88E5; /* Azul Oscuro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #1E88E5; 
+    color: #ffffff; 
     cursor: pointer;
     font-size: 1rem;
     box-sizing: border-box;
@@ -75,7 +74,7 @@ button {
 }
 
 button:hover {
-    background-color: #1565C0; /* Azul un poco más oscuro */
+    background-color: #1565C0; 
 }
 
 /* Media Queries para diseño responsive */

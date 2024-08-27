@@ -18,11 +18,9 @@ document.getElementById('copy-btn').addEventListener('click', function() {
 });
 
 function encryptText(text) {
-    // Implementa la lógica de cifrado aquí (ejemplo simple de sustitución)
     return text.replace(/e/g, 'enter').replace(/i/g, 'imes').replace(/a/g, 'ai').replace(/o/g, 'ober').replace(/u/g, 'ufat');
 }
 
 function decryptText(text) {
-    // Implementa la lógica de descifrado aquí (ejemplo simple de sustitución)
     return text.replace(/enter/g, 'e').replace(/imes/g, 'i').replace(/ai/g, 'a').replace(/ober/g, 'o').replace(/ufat/g, 'u');
 }
